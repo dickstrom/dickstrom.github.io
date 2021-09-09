@@ -1,149 +1,150 @@
-
 html, body {
-  align-items:flex-start;
+  align-items: flex-start;
 }
-  body {
-    font-family:Arial, Helvetica, sans-serif;
-    background-image: linear-gradient( rgb(8, 2, 95),rgba(255, 255, 255, 0.747)); 
-  }
-  .container {
-    border-color: #FFFFFF;
-    border-width: 1px;
-    border-style: solid;
-    width: 80%;
-    float:right;
-    font-size: 50px;
-    text-align:center;
-    background-image: url("summer.jpg");
-    background-size:100%;
-  }
-  .containertwo {
-    border-color: #FFFFFF;
-    border-width: 1px;
-    border-style: solid;
-    width: 80%;
-    float:right;
-    font-size: 50px;
-    text-align:center;
-    background-image: url("space.jpg");
-    background-size:100%;
-  }
-  .containerthree {
-    border-color: #FFFFFF;
-    border-width: 1px;
-    border-style: solid;
-    width: 80%;
-    float:right;
-    font-size: 50px;
-    text-align:center;
-    background-image: url("test.jpg");
-    background-size:100%;
-  }
-  .containerfour {
-    border-color: #FFFFFF;
-    border-width: 1px;
-    border-style: solid;
-    width: 80%;
-    float:right;
-    font-size: 50px;
-    text-align:center;
-    background-image: url("space.jpg");
-    background-size:100%;
-  }
-  .neon {
-      color:#000000;
-  text-shadow:
-   
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #fff,
-    0 0 82px #ffa,
-    0 0 92px #fff,
-    0 0 102px #fff,
-    0 0 151px #ffa;
-    }
-    .neontwo {
-      color:#000000;
-      font-size: 25px;
-      font-weight: bolder;
-  text-shadow:
-    0 0 7px #ffa,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #fff,
-    0 0 82px #ffa,
-    0 0 92px #fff,
-    0 0 102px #fff,
-    0 0 151px #ffa;
-    }
-    .neontwo:hover {
-    color: rgb(55, 91, 248);
-    }
-  button {
-    opacity: 65%;
-    cursor: pointer;
-    position: relative;
-    padding: 2.5rem 7.5rem;
-    border-radius: 3.75rem;
-    line-height: 2.5rem;
-    font-size: 30px;
-    border: 1px solid #012880;
-    background-image: linear-gradient(-180deg, #84a1f1 0%, #3309ee 100%);
-    box-shadow: 0 1rem 1.25rem 0 rgba(22,75,195,0.50),
-                0 -0.25rem 1.5rem rgb(4, 6, 112) inset,
-                0 0.75rem 0.5rem rgba(90, 123, 212, 0.4) inset,
-                0 0.25rem 0.5rem 0 rgb(201, 206, 231) inset;
-  }
-  button span {
-    color: transparent;
-    background-image: linear-gradient(0deg, #441cf7 0%, #d9dbe9 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    filter: drop-shadow(0 2px 2px rgb(43, 0, 78));
-  }
-  
-  button::before {
-    height: 0.25rem;
-    position: absolute;
-    top: 0.5rem;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #d9dbe9;
-    border-radius:100%;
-    background-image: linear-gradient(-270deg, rgba(255,255,255,0.00) 0%, #FFFFFF 20%, #FFFFFF 80%, rgba(255,255,255,0.00) 100%);
-  }
-  
-  button::after {
-    height: 0.25rem;
-    position: absolute;
-    bottom: 0.75rem;
-    left: 50%;
-    transform: translateX(-50%);
-    width: calc(100% - 7.5rem);
-    background:#012880;
-    border-radius: 100%;
-    opacity: 100%;
-    filter: blur(1px);
-    background-image: linear-gradient(-270deg, rgba(255,255,255,0.00) 0%, #FFFFFF 20%, #FFFFFF 80%, rgba(255,255,255,0.00) 100%);
-  }
-  button:hover {
-    background: #4e98f3;
-    cursor: pointer; 
-    opacity: 100%;
-  }
-  .sidebar {
-    line-height: 60px;
-    background-color: transparent;
-    font-size:20px;
-    width: 18%;
-    cursor: pointer;
-    float: left;
-    border-color: #FFFFFF;
-    border-width: 1px;
-    border-style: solid;
-    background-image: url("summer.jpg");
-    }
-  @media (max-width: 600px) 
-  { div.example {display:content}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: linear-gradient( rgb(8, 2, 95), rgba(255, 255, 255, 0.747));
 }
+
+.container {
+  border-color: #FFFFFF;
+  border-width: 1px;
+  border-style: solid;
+  width: 80%;
+  float: right;
+  font-size: 50px;
+  text-align: center;
+  background-image: url("summer.jpg");
+  background-size: 100%;
+}
+
+.containertwo {
+  border-color: #FFFFFF;
+  border-width: 1px;
+  border-style: solid;
+  width: 80%;
+  float: right;
+  font-size: 50px;
+  text-align: center;
+  background-image: url("space.jpg");
+  background-size: 100%;
+}
+
+.containerthree {
+  border-color: #FFFFFF;
+  border-width: 1px;
+  border-style: solid;
+  width: 80%;
+  float: right;
+  font-size: 50px;
+  text-align: center;
+  background-image: url("test.jpg");
+  background-size: 100%;
+}
+
+.containerfour {
+  border-color: #FFFFFF;
+  border-width: 1px;
+  border-style: solid;
+  width: 80%;
+  float: right;
+  font-size: 50px;
+  text-align: center;
+  background-image: url("space.jpg");
+  background-size: 100%;
+}
+
+.neon {
+  color: #000000;
+  text-shadow: 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #ffa, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #ffa;
+}
+
+.neontwo {
+  color: #000000;
+  font-size: 25px;
+  font-weight: bolder;
+  text-shadow: 0 0 7px #ffa, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff, 0 0 82px #ffa, 0 0 92px #fff, 0 0 102px #fff, 0 0 151px #ffa;
+}
+
+.neontwo:hover {
+  color: rgb(55, 91, 248);
+}
+
+button {
+  opacity: 65%;
+  cursor: pointer;
+  position: relative;
+  padding: 2.5rem 7.5rem;
+  border-radius: 3.75rem;
+  line-height: 2.5rem;
+  font-size: 30px;
+  border: 1px solid #012880;
+  background-image: linear-gradient(-180deg, #84a1f1 0%, #3309ee 100%);
+  box-shadow: 0 1rem 1.25rem 0 rgba(22, 75, 195, 0.50), 0 -0.25rem 1.5rem rgb(4, 6, 112) inset, 0 0.75rem 0.5rem rgba(90, 123, 212, 0.4) inset, 0 0.25rem 0.5rem 0 rgb(201, 206, 231) inset;
+}
+
+button span {
+  color: transparent;
+  background-image: linear-gradient(0deg, #441cf7 0%, #d9dbe9 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  filter: drop-shadow(0 2px 2px rgb(43, 0, 78));
+}
+
+button::before {
+  height: 0.25rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #d9dbe9;
+  border-radius: 100%;
+  background-image: linear-gradient(-270deg, rgba(255, 255, 255, 0.00) 0%, #FFFFFF 20%, #FFFFFF 80%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+button::after {
+  height: 0.25rem;
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 7.5rem);
+  background: #012880;
+  border-radius: 100%;
+  opacity: 100%;
+  filter: blur(1px);
+  background-image: linear-gradient(-270deg, rgba(255, 255, 255, 0.00) 0%, #FFFFFF 20%, #FFFFFF 80%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+button:hover {
+  background: #4e98f3;
+  cursor: pointer;
+  opacity: 100%;
+}
+
+.sidebar {
+  line-height: 60px;
+  background-color: transparent;
+  font-size: 20px;
+  width: 18%;
+  cursor: pointer;
+  float: left;
+  border-color: #FFFFFF;
+  border-width: 1px;
+  border-style: solid;
+  background-image: url("summer.jpg");
+}
+
+@media only screen and (max-width: 600px) {
+  a.neontwo {
+    font-size: 50%;
+  }
+}
+@media (max-width: 600px) {
+  div.example {
+    display: content;
+  }
+}
+
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
