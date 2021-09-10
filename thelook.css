@@ -1,7 +1,3 @@
-html, body {
-  align-items: flex-start;
-}
-
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-image: linear-gradient( rgb(8, 2, 95), rgba(255, 255, 255, 0.747));
@@ -127,13 +123,14 @@ button:hover {
   line-height: 60px;
   background-color: transparent;
   font-size: 20px;
-  width: 18%;
+  width: 15%;
   cursor: pointer;
   float: left;
   border-color: #FFFFFF;
   border-width: 1px;
   border-style: solid;
   background-image: url("summer.jpg");
+  padding: 10px;
 }
 
 @media only screen and (max-width: 600px) {
