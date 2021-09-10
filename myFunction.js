@@ -1,8 +1,8 @@
 function greeting() {
-  document.getElementById("hello").innerHTML = "Hello!<br> Nice to see yaa. You are really velcome. <br>I think you are one of the best programmers!";
+  document.getElementById("hello" ).innerHTML=prompt("Hello! Write something and it will show under this button");
 }
-function coding() {
-  document.getElementById("code").innerHTML = "This is hard but it works..are you a proffessional coder, I need help, call me on 5555555555 and so on..Is it possible for me to work with Javascript?";
+function coding(){
+  document.getElementById("code").innerHTML=("You are the proffessional coder I would like to get in touch with.");
 }
 function hi() {
   var name = prompt("What is your name?");
