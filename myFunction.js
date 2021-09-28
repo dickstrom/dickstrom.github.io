@@ -10,3 +10,44 @@ function hi() {
   document.getElementById("hi").innerHTML = result;
   console.log(result);
 }
+function eightBall(){
+document.getElementById("ball").innerHTML= userQuestion;
+let userName = "";
+userName ? prompt(`Hello, ${userName}!`) : prompt('Hello');
+const userQuestion='Do you feel lucky today?';
+prompt(`Your wife asked you; ${userQuestion}`);
+const randomNumber= Math.floor(Math.random()* 8);
+
+let eightBall= '';
+ 
+switch (randomNumber) {
+  case 0:
+  eightBall = 'It´s your lucky day!!';
+  break;
+  case 1:
+  eightBall = 'Buy a lottery ticket';
+  break;
+  case 2: 
+  eightBall = 'Do I?';
+  break;
+  case 3:
+  eightBall = 'OK, I give up!';
+  break;
+  case 4:
+  eightBall = 'Lucky people lives here!';
+  break;
+  case 5:
+  eightBall = 'Yes, I do!';
+  break;
+  case 6:
+  eightBall = 'Like a million bucks!';
+  break;
+  case 7:
+  eightBall = 'Not very much, no!';
+  break;
+  case 8:
+  eightBall = 'I won i billion swedish crowns!!';
+}
+prompt(`The husband answered: ${eightBall}`);
+}
+
