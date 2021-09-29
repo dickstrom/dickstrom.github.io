@@ -11,41 +11,40 @@ function hi() {
   console.log(result);
 }
 function question() {
-  let userName= '';
-  prompt('Whats your name?');
-  userName ? prompt(`Hello, ${userName}!`) : prompt('Hello');
-  const userQuestion= 'Do you feel lucky today?';
-  prompt(`I asked you; ${userQuestion}`);
+  let userName= prompt('Whats your name?');
+  let result= prompt (`Hello ${userName}`);
+  const userQuestion= (`Do ${userName} feel lucky today?`);
+  prompt(`I will ask you this; ${userQuestion}`);
   const randomNumber= Math.floor(Math.random()* 8);
   let eightBall= '';
   switch (randomNumber) {
     case 0:
-    eightBall = 'It´s your lucky day!!';
+    eightBall = 'It´s my lucky day!!';
     break;
     case 1:
-    eightBall = 'Buy a lottery ticket';
+    eightBall = 'I will buy a lottery ticket';
     break;
     case 2: 
-    eightBall = 'Do I?';
+    eightBall = `Does ${userName} fell lucky?`;
     break;
     case 3:
-    eightBall = 'OK, I give up!';
-    break;
-    case 4:
-    eightBall = 'Lucky people lives here!';
-    break;
-    case 5:
-    eightBall = 'Yes, I do!';
-    break;
-    case 6:
     eightBall = 'Like a million bucks!';
     break;
+    case 4:
+    eightBall = 'Lucky people live longer!';
+    break;
+    case 5:
+    eightBall = `Yes, ${userName} do!`;
+    break;
+    case 6:
+    eightBall = 'Like a million bucks?';
+    break;
     case 7:
-    eightBall = 'Not very much, no!';
+    eightBall = `Not very much, ${userName} is never lucky!`;
     break;
     case 8:
-    eightBall = 'I won i billion swedish crowns!!';
+    eightBall = 'I won i billion swedish crowns yesterday!!';
   }
-  document.getElementById("ball").innerHTML = prompt(`The husband answered: ${eightBall}`);
+  document.getElementById("ball").innerHTML = prompt(`${eightBall}`);
 }
 
