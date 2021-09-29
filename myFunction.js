@@ -15,13 +15,13 @@ function question() {
   let result= prompt (`Hello ${userName}`);
   const userQuestion= (`${userName} , is this your lucky day`);
   prompt(`Hi ${userQuestion}....?`);
-  const userAnswer= (`What can I give you , ${userName}`);
+  const userAnswer= (`Can I give you money or love or does ${userName} want something else?`);
   prompt(`${userAnswer}`);
   const randomNumber= Math.floor(Math.random()* 8);
   let eightBall= '';
   switch (randomNumber) {
     case 0:
-    eightBall = `${userName} will get a hug and a kiss!!`;
+    eightBall = ` I will give a hug and a kiss to ${userName}!!`;
     break;
     case 1:
     eightBall = `${userName} can have a lottery ticket`;
